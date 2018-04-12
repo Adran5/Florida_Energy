@@ -20,8 +20,8 @@ Accessibility Audit - https://achecker.ca
 Mobile Friendliness - https://search.google.com/test/mobile-friendly
 	• Viewport not set
 	• Clickable elements to close together
-	• Text to small to read
-	• Content wider than
+	• Text to small too read
+	• Content wider than screen
 
 Performance 
 	• 4.29s on cable connections Chrome on various windows, iOS, and Android platforms
