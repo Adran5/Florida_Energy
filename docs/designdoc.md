@@ -16,7 +16,8 @@ The color palette was inspired by (https://www.muvinteractive.com/)
 ## Fonts
 
 The headers should use the whimiscal curvy font Work Sans. While the body text is a more conventional sans-serif Montserrat that is easy to read. Both of these are google fonts that can be found at (https://fonts.google.com/)
-*   '''=<link href="https://fonts.googleapis.com/css?family=Work+Sans|Montserrat" rel="stylesheet">'''
+*   '''html
+<link href="https://fonts.googleapis.com/css?family=Work+Sans|Montserrat" rel="stylesheet">'''
 *   font-family: 'Work Sans', sans-serif;
 *   font-family: 'Montserrat', sans-serif;
 
