@@ -44,7 +44,7 @@ The headers should use the whimiscal curvy font Work Sans. While the body text i
 ![The North Alliance](inspired/northalliance.png "The North Alliance")
 
 ## Beats by Dre
-(https://www.beatsbydre.com)
-![Beats by Dre PDF](inspired/beatsbydre.pdf)
+[Beats by Dre PDF](inspired/beatsbydre.pdf)(https://www.beatsbydre.com)
+
 <!--![Beats by Dre](inspired/beatsbydre.pdf "Beats by Dre")-->
 
