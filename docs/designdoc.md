@@ -45,7 +45,9 @@ The headers should use the whimiscal curvy font Work Sans. While the body text i
 
 ## Beats by Dre
 (https://www.beatsbydre.com)
-![Beats by Dre](inspired/beatsbydre.pdf "Beats by Dre")
+<!--![Beats by Dre](inspired/beatsbydre.pdf "Beats by Dre")-->
 
-
+<object data="inspired/beatsbydre.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="inspired/beatsbydre.pdf ">
+</object>
 
