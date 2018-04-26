@@ -1,9 +1,13 @@
 main p {
  font-family: 'Montserrat', sans-serif;
 }
-main h1 {
+main h1, main h2 {
   font-family: 'Work Sans', sans-serif;
 }
 nav img {
   margin-right: 12px;
+}
+
+.socialshare h3 {
+  display: none;
 }
