@@ -28,7 +28,24 @@ The headers should use the whimiscal curvy font Work Sans. While the body text i
 # Inspiration Board
 
 ## Meet BIRD
+(https://www.muvinteractive.com/) 
 ![Meet BIRD](inspired/meetbird.png "Meet BIRD")
-[Meet BIRD](https://www.muvinteractive.com/) 
+
+## Dream Team
+(http://dreamteam.pl/)
+![Dream Team](inspired/dreamteam.png "dreamteam")
+
+## Mix the City
+(https://www.mixthecity.com)
+![Mix the City](inspired/mixthecity.png "Mix the City")
+
+## The North Alliance
+(https://www.thenorthalliance.com/cases/transforming-how-a-headhunting-agency-attracts-talent/)
+![The North Alliance](inspired/northalliance.png "The North Alliance")
+
+## Beats by Dre
+(https://www.beatsbydre.com)
+![Beats by Dre](inspired/beatsbydre.pdf "Beats by Dre")
+
 
 
