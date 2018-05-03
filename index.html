@@ -5,13 +5,13 @@
     <meta name="description" content="Florida Energy Redesign Proposal"> <!--Search engine optimization-->
     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--set viewport-->
     <title>FESC</title>
-    <link rel="icon" href="images/FESC_favicon.png" type="image/gif" sizes="16x16">
+    <link rel="icon" href="images/FESC_favicon_marine.png" type="image/gif" sizes="16x16">
     
     <!--Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Work Sans" rel="stylesheet">
     
     <!--bootstrap-->
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
     
     <!-- facebook tags -->
     <meta property="og:title" content="FESC Helps Energize Florida with Renewables">
@@ -36,11 +36,11 @@
       gtag('config', 'UA-117498519-2');
     </script>
     <!--Page CSS-->
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-light ">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -48,7 +48,7 @@
           
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a href="index.html"><img src="images/fesc_favicon_forest_50x50.png" alt="FESC Logo"></a>
+              <a href="index.html"><img src="images/fesc_favicon_marine_50x50.png" title="Home" alt="FESC Logo"></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="research.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FESC Research</a>
@@ -115,9 +115,41 @@
       + Add newletter signup - Done!
 
     -->
+    <div class="jumbotron p-3 p-md-5 text-white bg-dark">
+      <div class="container">
+        <h1 class="display-4 font-italic">Florida's Future Energy</h1>
+        <p class="lead my-3">The research, education, and outreach that will fuel Florida's tomorrow.</p>
+        <p class="lead mb-0"><a href="index.html#video" class="text-dark font-weight-bold">Continue reading...</a></p>
+      </div>
+    </div>
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <h3 class="mb-0">
+              <a class="text-dark" href="education.html">Education</a>
+            </h3>
+            <p class="card-text mb-auto">Florida’s utilities have predicted that the State’s energy use will increase significantly in the coming years.</p>
+            <a href="education.html">Continue reading</a>
+          </div>
+<!--          <img class="card-img-right flex-auto d-none d-md-block" data-src="images/download.svg" alt="Solar Engery">-->
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card flex-md-second row mb-4 box-shadow h-md-250">
+          <div class="card-body d-flex flex-column align-items-start">
+            <h3 class="mb-0">
+              <a class="text-dark" href="outreach.html">Outreach</a>
+            </h3>
+            <p class="card-text mb-auto">Outreach programs are designed to deliver practical, applicable information and knowledge to targeted groups. </p>
+            <a href="outreach.html">Continue reading</a>
+          </div>
+<!--          <img class="card-img-right flex-auto d-none d-md-block" data-src="images/download.svg" alt="Educational Programs">-->
+        </div>
+      </div>
+    </div>
     <main class="container">
-      <h1>About Us</h1>
-      <h1>Florida Energy Systems Consortium</h1>
+      <h1 id="video">Florida Energy Systems Consortium</h1>
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/YA2ofbdd-G8?rel=0"  allowfullscreen></iframe>
       </div><br>

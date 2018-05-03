@@ -1,3 +1,89 @@
+//Site Color Palette
+$brand: #77C9D4; //feather
+$highlight: #57BC90; //Marine
+$accent1: #015249; //Forest
+$accent2: #A5A5AF; //Sleek Grey
+$accent3: #18121E; //Navy Blue
+$light: white;
+$dark: #343a40;
+
+$default-margin: auto 1rem;
+
+//Fonts
+$titles: 'Work Sans', sans-serif;
+$text: 'Montserrat', sans-serif;
+
+@mixin modborder($color) {
+  border: .5rem solid $color;
+}
+
 body {
-  font-family: 'Work Sans', sans-serif;
+  color: $dark;
+}
+
+h1, h2, h3 {
+  color: $highlight;
+  font-family: $titles;
+}
+.jumbotron {
+  background: $brand;
+  background: linear-gradient(90deg, $brand 0%, $highlight 100%);
+  color: $light;
+  h1 {
+    color: $light;
+  }
+}
+
+.card-body {
+  background: $highlight;
+  color: $light;
+  .text-dark {
+    color: $light!important;
+  }
+  p {
+    margin-top: 1rem;
+    color: $light;
+  }
+  a {
+    color: $dark;
+  }
+}
+
+.socialshare h3 {
+  display: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $highlight;
+
+}
+
+.btn-outline-success {
+  color: $highlight;
+  border-color: $highlight;
+}
+.btn-outline-success:hover {
+  color: white;
+  background-color: $highlight;
+}
+li img {
+  margin: $default-margin;
+}
+
+.embed-responsive-16by9 {
+  @include modborder($brand);
+}
+
+nav img {
+//  border-radius: 50%;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+  }
+nav img:hover {
+    -webkit-transform: rotate(1080deg);
+            transform: rotate(1080deg);
+  }
+
+a {
+  color: $highlight;
 }
