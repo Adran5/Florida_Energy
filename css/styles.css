@@ -37,7 +37,13 @@ h1, h2 {
   .card-body a {
     color: #343a40; }
 
-.socialshare h3 {
+.mb-4 {
+  margin-bottom: 0 !important; }
+
+#video {
+  margin-top: 1.5rem; }
+
+.socialshare {
   display: none; }
 
 .navbar-light .navbar-nav .nav-link {
@@ -68,7 +74,22 @@ nav img:hover {
   transform: rotate(1080deg); }
 
 a {
-  color: $highlight; }
+  color: #57BC90; }
+
+li {
+  list-style: none; }
+
+.col-sm {
+  margin: 1.5rem; }
+
+.stickyfooter {
+  background-color: #77C9D4;
+  padding: 1rem;
+  color: white; }
+  .stickyfooter a {
+    color: white; }
+
+.fa {
+  padding: .5rem; }
 
 /*# sourceMappingURL=styles.css.map */
-

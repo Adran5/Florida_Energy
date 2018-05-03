@@ -52,7 +52,7 @@ h1, h2 {
 }
 .card-body {
   background: $highlight;
-  color: $light;
+  color: $light;  
   .text-dark {
     color: $light!important;
   }
@@ -65,14 +65,19 @@ h1, h2 {
   }
 
 }
+.mb-4{
+  margin-bottom: 0!important;
+}
 
-.socialshare h3 {
+#video {
+  margin-top: 1.5rem;
+}
+.socialshare {
   display: none;
 }
 
 .navbar-light .navbar-nav .nav-link {
   color: $highlight;
-
 }
 
 .btn-outline-success {
@@ -103,4 +108,21 @@ nav img:hover {
 
 a {
   color: $highlight;
+}
+li {
+  list-style: none;
+}
+.col-sm {
+  margin: 1.5rem;
+}
+.stickyfooter {
+  background-color: $brand;
+  padding: 1rem;
+  color: $light;
+  a {
+    color: $light;
+  }
+}
+.fa {
+  padding: .5rem;
 }
