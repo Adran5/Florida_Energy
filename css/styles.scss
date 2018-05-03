@@ -21,7 +21,7 @@ body {
   color: $dark;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: $highlight;
   font-family: $titles;
 }
@@ -29,11 +29,27 @@ h1, h2, h3 {
   background: $brand;
   background: linear-gradient(90deg, $brand 0%, $highlight 100%);
   color: $light;
+  margin-bottom: 0;
+  border-radius: 0;
   h1 {
     color: $light;
   }
+  h2 {
+   color: $light; 
+  }
+  .btn-outline-light:hover {
+    color: $highlight;
+  }
 }
 
+
+.col-md-6{
+  padding: 0;
+}
+.pad-adjust {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .card-body {
   background: $highlight;
   color: $light;
@@ -47,6 +63,7 @@ h1, h2, h3 {
   a {
     color: $dark;
   }
+
 }
 
 .socialshare h3 {

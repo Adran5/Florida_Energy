@@ -1,7 +1,7 @@
 body {
   color: #343a40; }
 
-h1, h2, h3 {
+h1, h2 {
   color: #57BC90;
   font-family: "Work Sans", sans-serif; }
 
@@ -9,9 +9,22 @@ h1, h2, h3 {
   background: #77C9D4;
   background: -webkit-gradient(linear, left top, right top, from(#77C9D4), to(#57BC90));
   background: linear-gradient(90deg, #77C9D4 0%, #57BC90 100%);
-  color: white; }
+  color: white;
+  margin-bottom: 0;
+  border-radius: 0; }
   .jumbotron h1 {
     color: white; }
+  .jumbotron h2 {
+    color: white; }
+  .jumbotron .btn-outline-light:hover {
+    color: #57BC90; }
+
+.col-md-6 {
+  padding: 0; }
+
+.pad-adjust {
+  padding-left: 15px;
+  padding-right: 15px; }
 
 .card-body {
   background: #57BC90;
@@ -55,6 +68,7 @@ nav img:hover {
   transform: rotate(1080deg); }
 
 a {
-  color: #57BC90; }
+  color: $highlight; }
 
 /*# sourceMappingURL=styles.css.map */
+
