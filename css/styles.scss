@@ -14,7 +14,8 @@ $titles: 'Work Sans', sans-serif;
 $text: 'Montserrat', sans-serif;
 
 @mixin modborder($color) {
-  border: .5rem solid $color;
+  border: 1rem solid $color;
+  background: linear-gradient(90deg, $brand 0%, $highlight 100%);
 }
 
 body {
@@ -112,8 +113,16 @@ a {
 li {
   list-style: none;
 }
+
+hr {
+  border-top: 1px solid $light;
+}
 .col-sm {
   margin: 1.5rem;
+}
+
+.mr-auto.footer{
+  padding-left: 40px;
 }
 .stickyfooter {
   background-color: $brand;

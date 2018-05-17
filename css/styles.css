@@ -61,7 +61,9 @@ li img {
   margin: auto 1rem; }
 
 .embed-responsive-16by9 {
-  border: 0.5rem solid #77C9D4; }
+  border: 1rem solid #77C9D4;
+  background: -webkit-gradient(linear, left top, right top, from(#77C9D4), to(#57BC90));
+  background: linear-gradient(90deg, #77C9D4 0%, #57BC90 100%); }
 
 nav img {
   -webkit-transition: -webkit-transform .8s ease-in-out;
@@ -79,8 +81,14 @@ a {
 li {
   list-style: none; }
 
+hr {
+  border-top: 1px solid white; }
+
 .col-sm {
   margin: 1.5rem; }
+
+.mr-auto.footer {
+  padding-left: 40px; }
 
 .stickyfooter {
   background-color: #77C9D4;
