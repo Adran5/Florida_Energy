@@ -54,6 +54,6 @@ Create news feed elements to display new outreach, educational, and research pro
 
 ## Google Charts
 https://google-developers.appspot.com/chart/
-* Located on the Education page
+* Located on the Education page (https://adran5.github.io/Florida_Energy/education.html)
 * The line chart was picked to show the trend of the available matching data that showed Florida's total energy consumption vs. renewable energy production. This gives a clear trend line of how far renewables have come and how far they still have to go.
 * The donut chart was choosen to depict the percentage of energy consumption vs. renewable energy production for a specific year. This should help illustrate the impact that renewables are having in Florida. It might make sense to add a year picker so that specific years percentages can be displayed. 
