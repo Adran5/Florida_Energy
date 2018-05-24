@@ -1,12 +1,12 @@
 # Florida_Energy
-Florida Energy site redesign proposal
+Florida Energy site redesign proposal - http://floridaenergy.ufl.edu/
 
 
 ## Purpose of Redesign
 
 The purpose of the site redesign is to create an compelling and inviting user experience. This will make your site visitors want to spend more time on the site to learn about FESC and the your resources . The redesign will focus on creating a modern responsive and mobile-friend site. In our increasingly mobile first world, it's important that pages load fast or risk losing potential consumers before the contents of the pages even load. This can be done by reorganizing and reprioritizing content. Site images and content should be optimized based on the devices used to view the site. In addition, the site will be designed for accessibility. Designing an accessible site means considering diverse range of hardware, language, hearing, sight, and cognitive ability. 
 
-## State of the Current Site (http://floridaenergy.ufl.edu/)
+## State of the Current Site 
 * Non-responsive page design with set width
 * Slow loading pages
 * Confusing navigation
@@ -16,14 +16,16 @@ The purpose of the site redesign is to create an compelling and inviting user ex
 * Disjointed Contact us pages with separate map instructions
 * Outdated copyright
 	
-Accessibility Audit - https://achecker.ca
+## Accessibility Audit 
+https://achecker.ca
 * Add alt tags to images
 * Adjust color contrast on image
 * Adjust font size for smaller browsers
 * Small non-responsive text
 
-## Mobile Friendliness (https://search.google.com/test/mobile-friendly)
-Viewport not set
+## Mobile Friendliness
+https://search.google.com/test/mobile-friendly
+* Viewport not set
 * Clickable elements to close together
 * Text to small too read
 * Content wider than screen
@@ -50,7 +52,8 @@ Viewport not set
 * Update site navigation in modular chunks instead of a long hard to decipher list
 Create news feed elements to display new outreach, educational, and research proposal opportunities. Ensuring that posts expire after they are no longer relevant. 
 
-## Google Charts (https://google-developers.appspot.com/chart/)
+## Google Charts
+https://google-developers.appspot.com/chart/
 * Located on the Education page
 * The line chart was picked to show the trend of the available matching data that showed Florida's total energy consumption vs. renewable energy production. This gives a clear trend line of how far renewables have come and how far they still have to go.
 * The donut chart was choosen to depict the percentage of energy consumption vs. renewable energy production for a specific year. This should help illustrate the impact that renewables are having in Florida. It might make sense to add a year picker so that specific years percentages can be displayed. 

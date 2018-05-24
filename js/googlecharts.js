@@ -73,11 +73,14 @@ function energyLineChart() {
     chart.draw(data, options);
   }
 
+//ToDo:
+//Add input button for year so that date can be updated.
+
 function energyDonutChart() {
   var data = google.visualization.arrayToDataTable([
     ['Energy', 'Consumption'],
     ['Renewable Energy', 234192],
-    ['Energy Consumed', 803865]
+    ['Energy Consumed', 536673]
   ]);
 
   var options = {
