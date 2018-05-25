@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alligators To Know</title>
+  <link rel="stylesheet" type="text/css" href="styles-alligators.css">
+  
+  <!--Vue js script-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/components.js"></script>
+  
+</head>
+<body>
+  <div id="app">
+ 
+    <app-header text="My Favorite Alligators"></app-header>  
+    
+    <div class="filters">
+      <label>
+        <input v-on:change="filter()" type="checkbox" id="icecream">
+        Only show alligators that like ice cream
+      </label>
+      
+      <br>
+      
+      <button v-on:click="sortAsc()">Sort by Weight, Asecending</button>
+      
+      <br>
+      
+      <button v-on:click="sortDesc()">Sort by Weight, Descending</button>
+      
+      <br>
+      
+      
+      <button v-on:click="test()">Click Me!</button>
+    </div>
+      
+    <noscript>
+      Please enable Javascript in your browser for best alligator experience.
+    </noscript>
+    
+    <section class="profile-container">
+      
+      <div v-for = "gator in alligators" class="profile">
+        <h3>{{ gator.name }}</h3>
+        <img :src="gator.imgSource" :alt="gator.name">
+        <p>Hobbies include {{gator.hobbies}}</p>
+      </div>
+
+
+    </section>
+  </div>
+  <script src="js/index.js"></script>
+</body>
+</html>

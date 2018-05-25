@@ -1,97 +1,43 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Florida Energy Redesign Proposal"> <!--Search engine optimization-->
-    <meta name="viewport" content="width=device-width, initial-scale=1"> <!--set viewport-->
-    <title>FESC - Outreach</title>
-    <link rel="icon" href="images/FESC_favicon_marine.png" type="image/gif" sizes="16x16">
-  
-    <!--bootstrap-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous"> 
-    
-    <!--Font Awesome-->
-    <script src="https://use.fontawesome.com/d42c9f5feb.js"></script>
-    
-    <!-- facebook tags -->
-    <meta property="og:title" content="FESC Helps Energize Florida with Renewables">
-    <meta property="og:description" content="The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise.">
-    <meta property="og:image" content="http://indiacsr.in/wp-content/uploads/2016/03/Renewable-Energy.jpg">
-    <meta property="og:url" content="https://adran5.github.io/Florida_Energy/">
-    <meta property="og:type" content="website">
-    
-    <!-- twitter tags -->
-    <meta name="twitter:title" content="FESC Helps Energize Florida with Renewables">
-    <meta name="twitter:description" content="The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise.">
-    <meta name="twitter:image" content="http://indiacsr.in/wp-content/uploads/2016/03/Renewable-Energy.jpg">
-    <meta name="twitter:card" content="summary_large_image">
-    <!--Page CSS-->
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-md navbar-light ">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a href="index.html"><img src="images/fesc_favicon_marine_50x50.png" title="Home" alt="FESC Logo"></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="research.html" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FESC Research</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item" href="research.html">By University</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="research.html">By Research Area</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="research.html">Reaserch Grants</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="education.html" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Education
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                <a class="dropdown-item" href="education.html">Energy Literacy</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Free Online Resources</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Engergy Educations By Discipline</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Engergy Educations By Institution</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="outreach.html" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outreach</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
-                <a class="dropdown-item" href="outreach.html">Energy Fact Sheets</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="outreach.html">Energy Video Clips</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="outreach.html">FESC Research Areas and Expertise</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle " href="aboutus.html" id="navbarDropdown4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About Us</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown4">
-                <a class="dropdown-item" href="aboutus.html">Contact Us</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="aboutus.html">FESC Member Universities</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="aboutus.html">Advisory Board</a>
-              </div>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-    </header><br>
+  <meta charset="utf-8">
+  <meta name="description" content="Florida Energy Redesign Proposal">
+  <!--Search engine optimization-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--set viewport-->
+  <title>FESC - Outreach</title>
+  <link rel="icon" href="images/FESC_favicon_marine.png" type="image/gif" sizes="16x16">
+
+  <!--Vue js script-->
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  <!--Font Awesome-->
+  <script src="https://use.fontawesome.com/d42c9f5feb.js"></script>
+
+  <!-- facebook tags -->
+  <meta property="og:title" content="FESC Helps Energize Florida with Renewables">
+  <meta property="og:description" content="The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise.">
+  <meta property="og:image" content="http://indiacsr.in/wp-content/uploads/2016/03/Renewable-Energy.jpg">
+  <meta property="og:url" content="https://adran5.github.io/Florida_Energy/">
+  <meta property="og:type" content="website">
+
+  <!-- twitter tags -->
+  <meta name="twitter:title" content="FESC Helps Energize Florida with Renewables">
+  <meta name="twitter:description" content="The Florida Energy Systems Consortium (FESC) was created by the Florida State government to promote collaboration among the energy experts at its 12 supported universities to share energy-related expertise.">
+  <meta name="twitter:image" content="http://indiacsr.in/wp-content/uploads/2016/03/Renewable-Energy.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <!--Page CSS-->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div id="app">
+    <!--Vue js header in components.js -->
+    <fesc-header></fesc-header>
     <main>
       <section class="container">
         <h1>Outreach</h1>
@@ -103,150 +49,19 @@
         <p>The overall twin goals of the FESC Outreach effort are to increase Florida’s energy use efficiency and to measurably reduce its emissions of greenhouse gases. Dr. Pierce Jones, Professor & Director, Program for Resources Efficient Communities, UF, leads outreach through his experience with the Florida Cooperative Extension Service.</p>
         <p>Educational materials and programs developed by FESC are based on energy and climate research findings and analysis conducted at Florida’s state universities as well as national sources. Outreach programs are designed to deliver practical, applicable information and knowledge to targeted groups including: the general public, professionals, local officials and state policymakers.</p>
       </section>
-        <hr>
-      <section class="text-center jumbotron p-3 p-md-5 text-white bg-dark newsletter">
-        <h2>Get the latest Energy News and Opportunities.</h2>
-        <div class="d-flex justify-content-center">
-          <form class="form-inline my-2 my-lg-0 ">
-            <input class="form-control mr-sm-2" type="email" placeholder="email@mail.com" aria-label="email">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Newsletter Signup</button>
-          </form>
-        </div>
-      </section>
-        <hr>
-      <footer>
-        <div class="row">
-          <div class="col-sm-4">
-          <!--Bottom Nav-->
-          <ul class="navbar-nav footer mr-auto">
-            <li>
-              <h4>Site Navigation</h4>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="research.html" id="navbarDropdown5" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">FESC Research</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown5">
-                <a class="dropdown-item" href="research.html">By University</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="research.html">By Research Area</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="research.html">Reaserch Grants</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="education.html" id="navbarDropdown6" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Education
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown6">
-                <a class="dropdown-item" href="education.html">Energy Literacy</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Free Online Resources</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Engergy Educations By Discipline</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="education.html">Engergy Educations By Institution</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="outreach.html" id="navbarDropdown7" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outreach</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown7">
-                <a class="dropdown-item" href="outreach.html">Energy Fact Sheets</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="outreach.html">Energy Video Clips</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="outreach.html">FESC Research Areas and Expertise</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle " href="aboutus.html" id="navbarDropdown8" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> About Us</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown8">
-                <a class="dropdown-item" href="aboutus.html">Contact Us</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="aboutus.html">FESC Member Universities</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="aboutus.html">Advisory Board</a>
-              </div>
-            </li>
-          </ul>
-          </div>
-          <!--External Links-->
-          <div class="col-sm-5">
-            <ul>
-              <li>
-                <h4>FESC Universities</h4>
-              </li>
-              <li>
-                <a href= "http://www.ufl.edu" target="_blank">University of Florida</a>
-              </li>
-              <li>
-                <a href= "http://www.fsu.edu" target="_blank">Florida State University</a>
-              </li>
-              <li>
-                <a href= "http://www.ucf.edu" target="_blank">University of Central Florida</a>
-              </li>
-              <li>
-                <a href= "http://www.usf.edu" target="_blank">University of South Florida</a>
-              </li>        
-              <li>
-                <a href= "http://www.famu.edu" target="_blank">Florida Agricultural and Mechanical University</a>
-              </li>
-              <li>
-                <a href= "http://www.fau.edu" target="_blank">Florida Atlantic University</a>
-              </li>
-            	<li>
-                <a href= "http://www.fgcu.edu" target="_blank">Florida Gulf Coast University</a>
-              </li>
-              <li>
-                <a href= "http://www.fiu.edu" target="_blank">Florida International University</a>
-              </li>
-              <li>
-                <a href= "http://www.ncf.edu" target="_blank">New College of Florida</a>
-              </li>
-              <li>
-                <a href= "http://www.unf.edu" target="_blank">University of North Florida</a>
-              </li>
-              <li>
-                <a href= "http://www.uwf.edu" target="_blank">University of West Florida</a>
-              </li>
-              <li>
-                <a href= "https://floridapolytechnic.org/" target="_blank">Florida Polytechnic University</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-sm-3">
-            <ul>
-              <li><h4><a href= "mailto:someone@example.com?Subject=FESC%20Contact%20Us" target="_blank">Contact Us</a></h4></li>
-              <li>
-                <a href="aboutus.html" target="">Directions</a>
-              </li>
-              <li>
-                Telephone: 352 294 2027
-              </li>
-              <li>
-                272 Grinter Hall
-              </li>
-              <li>
-                P.O. Box 115500
-              </li>              
-              <li>
-                Gainesville, FL 32611-55007
-              </li>               
-            </ul>         
-          </div>
-        </div>
-        <!--Social Media Handles-->
-        <div class="stickyfooter text-center">
-          <p class="float-right"><a href="#">Back to top</a></p>
-          <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
-          <a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-          <a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-          
-          <p>Copyright &copy; 2017-2018  Florida Energy Systems Consortium. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </div>
-      </footer>
+      <hr>
+      <fesc-newsletter></fesc-newsletter>
+      <hr>
+      <fesc-footer></fesc-footer>
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-  </body>
+  </div>
+</body>
+
+
+<script src="js/components.js"></script>
+<script src="js/index.js"></script>
 
 </html>
