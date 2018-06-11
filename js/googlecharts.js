@@ -1,5 +1,6 @@
-google.charts.load('current', {packages: ['corechart', 'line']});
+google.charts.load('current', {packages: ['corechart', 'line', 'bar']});
 google.charts.setOnLoadCallback(getData);
+//google.charts.setOnLoadCallback(getData2);
 google.charts.setOnLoadCallback(energyDonutChart);
 
         
@@ -82,7 +83,7 @@ function drawBasic(freshData) {
         let testData
         
         function getData(){
-        // Create a new request object
+        // Create a new request2 object
         let request = new XMLHttpRequest()
         // TODO: URL to contact goes here
         let requestUrl = "https://api.eia.gov/series/?api_key=09ff2cc0d2403f08c3e56ac318c19126&series_id=SEDS.REPRB.FL.A"
@@ -110,6 +111,7 @@ function drawBasic(freshData) {
 //ToDo:
 //Add input button for year so that date can be updated.
 
+//Donut chart
 function energyDonutChart() {
   var data = google.visualization.arrayToDataTable([
     ['Energy', 'Consumption'],
@@ -133,3 +135,61 @@ function energyDonutChart() {
     var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
       chart.draw(data, options);
     }
+
+
+
+
+//function drawBasic(energyData) {
+//  energyData.reverse();
+//  energyData.unshift(["Year", "Billion BTUs"])
+//  
+//  var data = google.visualization.arrayToDataTable(energyData)
+//  
+//  var options = {
+//    title: 'Florida Energy Production',
+//    titleTextStyle: {
+//      color: '#57BC90',
+//      fontSize: 16,
+//      bold: true,
+//      italic: true
+//    },
+//  
+//    curveType: 'function',
+//    legend: { position: 'bottom' },
+//    colors: ['#57BC90', '#77C9D4'],
+//  };
+//					
+// 
+//
+//        let testData2
+//        
+//        function getData2(){
+//        // Create a new request object
+//        let request2 = new XMLHttpRequest()
+//        // TODO: URL to contact goes here
+//        let requestUrl2 = "http://api.eia.gov/series/?api_key=09ff2cc0d2403f08c3e56ac318c19126&series_id=SEDS.TETCB.FL.A"
+//        // Open a connection
+//        request2.open('GET', requestUrl2, true)
+//        // Callback for when the request completes
+//        request2.onload = function(){
+//          
+//          let theActualData2 = JSON.parse(request.response).series[0].data
+//          
+//          //call function to draw the chart
+//          drawBasic(theActualData2)
+//          
+//          //console.log to see how data is formated in DOM
+//          console.log("response from server is: ", JSON.parse(request2.response))
+//        }
+//        // Callback for when there's an error
+//        request2.error = function(err){
+//          console.log("error is: ", err)
+//        }
+//        // Send the request to the specified URL
+//        request2.send()
+//      }
+//
+//   var chart2 = new google.visualization.LineChart(document.getElementById('florida-energy'));
+//      
+//    chart2.draw(data, options);
+//  }

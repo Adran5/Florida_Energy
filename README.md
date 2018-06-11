@@ -57,3 +57,10 @@ https://google-developers.appspot.com/chart/
 * Located on the Education page (https://adran5.github.io/Florida_Energy/education.html)
 * The line chart was picked to show the trend of the available matching data that showed Florida's total energy consumption vs. renewable energy production. This gives a clear trend line of how far renewables have come and how far they still have to go.
 * The donut chart was choosen to depict the percentage of energy consumption vs. renewable energy production for a specific year. This should help illustrate the impact that renewables are having in Florida. It might make sense to add a year picker so that specific years percentages can be displayed. 
+
+## API Chart Data
+https://www.eia.gov/
+* The total Florida renewable chart data is retrieved using this API: The total forida energy data is retreived
+* The total Florida energy data is retrieved: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=SEDS.TETCB.FL.A
+* A key can be requested using this link: https://www.eia.gov/opendata/register.php
+* The js is located on within education.js
