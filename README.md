@@ -63,4 +63,4 @@ https://www.eia.gov/
 * The total Florida renewable chart data is retrieved using this API: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=SEDS.REPRB.FL.A
 * The total Florida energy data is retrieved using this API: http://api.eia.gov/series/?api_key=YOUR_API_KEY_HERE&series_id=SEDS.TETCB.FL.A
 * A key can be requested using this link: https://www.eia.gov/opendata/register.php
-* The js is located on within education.js
+* The js is located on within googlecharts.js
